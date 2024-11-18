@@ -37,10 +37,10 @@ public class Empleado {
     // --------------------------------
 
     // Orden -----------------------
-    private static models.OrderType orderNombre;
-    private static models.OrderType orderEdad;
-    private static models.OrderType orderSalario;
-    private static models.OrderType orderDp;
+    private static OrderType orderNombre;
+    private static OrderType orderEdad;
+    private static OrderType orderSalario;
+    private static OrderType orderDp;
 
     // --------------------------------
 

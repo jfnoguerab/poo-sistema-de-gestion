@@ -44,3 +44,14 @@ En esta actividad deberás crear un menú para que el usuario pueda utilizar el 
 5. **Incrementar salario:** el usuario debe ingresar el nombre y el porcentaje de aumento.
 6. **Limpiar filtros:** esto devuelve el arreglo de empleados que se muestra a su versión original.
 7. **Salir del programa**
+
+---
+### ¿Cómo correr el programa?
+
+Desde la consola de comandos, debemos ubicarnos al nivel del archivo `Application.java` y lanzar el siguiente comando:
+
+~~~
+java Application.java
+~~~
+
+_* Cabe aclarar que ya se debe tener instalado Java en el sistema para usar el comando._
