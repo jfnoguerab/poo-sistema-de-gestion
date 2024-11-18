@@ -46,12 +46,4 @@ En esta actividad deberás crear un menú para que el usuario pueda utilizar el 
 7. **Salir del programa**
 
 ---
-### ¿Cómo correr el programa?
-
-Desde la consola de comandos, debemos ubicarnos al nivel del archivo `Application.java` y lanzar el siguiente comando:
-
-~~~
-java Application.java
-~~~
-
-_* Cabe aclarar que ya se debe tener instalado Java en el sistema para usar el comando._
+© 2024 | Desarrollado por [Fernando Noguera](https://www.linkedin.com/in/jfnoguerab/)
