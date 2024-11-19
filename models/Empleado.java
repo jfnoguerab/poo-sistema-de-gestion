@@ -251,9 +251,23 @@ public class Empleado {
     }
 
     public static Empleado buscarPorNombre(Empleado[] empleados, String nombre) {
+        
         if (empleados.length > 0 && empleados[0] != null) {
+            empleados = new NameOrder(OrderType.ASC).apply(empleados);
             for (Empleado empleado : empleados) {
                 if (empleado.getNombre().toLowerCase().contains(nombre.toLowerCase())) {
+                    return empleado;
+                }
+            }
+        }
+
+        return null;
+    }
+    
+    public static Empleado buscarPorNombreEquals(Empleado[] empleados, String nombre) {
+        if (empleados.length > 0 && empleados[0] != null) {
+            for (Empleado empleado : empleados) {
+                if (empleado.getNombre().equalsIgnoreCase(nombre)) {
                     return empleado;
                 }
             }

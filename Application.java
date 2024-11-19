@@ -119,7 +119,7 @@ public class Application {
         String nombreEmpleado = MenuUtility.solicitarCadena(scanner, "Ingrese el nombre del empleado: ");
 
         // Validamos que el nombre ingresado no haya sido registrado anteriormente
-        Empleado valEmpleado = Empleado.buscarPorNombre(empleadosArr, nombreEmpleado);
+        Empleado valEmpleado = Empleado.buscarPorNombreEquals(empleadosArr, nombreEmpleado);
 
         if (valEmpleado == null) {
 
