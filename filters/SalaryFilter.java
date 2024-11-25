@@ -14,6 +14,7 @@ public class SalaryFilter implements Filter {
         this.maxSalary = maxSalary;
     }
 
+    @Override
     public Empleado[] apply(Empleado[] empleados) {
         // Si existe algún filtro recorremos el arreglo y lo filtramos
         Empleado[] filteredEmpleados = new Empleado[1];

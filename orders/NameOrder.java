@@ -12,6 +12,7 @@ public class NameOrder implements Order {
         this.orderType = orderType;
     }
 
+    @Override
     public Empleado[] apply(Empleado[] empleados) {
         if (empleados != null) {
             int n = empleados.length;

@@ -10,6 +10,7 @@ public class AndFilter implements Filter {
         this.filters = filters;
     }
 
+    @Override
     public Empleado[] apply(Empleado[] empleados) {
         
         if (empleados != null && this.filters != null) {

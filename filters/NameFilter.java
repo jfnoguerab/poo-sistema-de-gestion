@@ -13,6 +13,7 @@ public class NameFilter implements Filter {
         this.filterNameStr = filterNameStr;
     }
 
+    @Override
     public Empleado[] apply(Empleado[] empleados) {
         // Si existe algún filtro recorremos el arreglo y lo filtramos
         Empleado[] filteredEmpleados = new Empleado[1];
